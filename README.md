@@ -1,10 +1,20 @@
 # Ngao (GitHub PR Triage Bot)
 
-Ngao is a simple Flask-based webhook server designed to automate GitHub Pull Request triage. It helps prevent AI-generated spam by automatically commenting on new PRs and requesting human verification (e.g., via Nostr or Proof-of-Work).
+
+
+
+Ngao is a simple Flask-based webhook server designed to automate GitHub Pull Request triage. It helps prevent AI-generated spam by automatically commenting on new PRs 
+
+
+and requesting human verification (e.g., via Nostr or Proof-of-Work).
 
 ## Features
 
 - Listens for GitHub `pull_request` events.
+
+
+- 
+- 
 - Verifies webhook signatures for security.
 - Automatically adds a "pending-verification" label to new PRs.
 - Posts a customizable comment requesting human verification.
