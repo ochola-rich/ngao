@@ -5,6 +5,7 @@ Ngao is a simple Flask-based webhook server designed to automate GitHub Pull Req
 ## Features
 
 - Listens for GitHub `pull_request` events.
+- 
 - Verifies webhook signatures for security.
 - Automatically adds a "pending-verification" label to new PRs.
 - Posts a customizable comment requesting human verification.
