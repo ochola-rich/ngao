@@ -38,6 +38,18 @@ Default difficulty is 4 leading zeros (~65,000 attempts on average, ~2 seconds o
 - HMAC-SHA256 webhook signature verification
 - `GET /health` and `GET /challenges` debug endpoints
 
+## Project layout
+
+- `main.py` — application entrypoint
+- `ngao/app.py` — Flask route wiring
+- `ngao/config.py` — environment configuration
+- `ngao/handlers.py` — GitHub webhook event handling
+- `ngao/pow.py` — signature and proof-of-work helpers
+- `ngao/store.py` — pending challenge storage
+- `ngao/github_client.py` — GitHub API label helpers
+- `ngao/messages.py` — GitHub comment templates
+- `solve_pow.py` — standalone contributor solver
+
 ---
 
 ## Prerequisites
